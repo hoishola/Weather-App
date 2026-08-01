@@ -1,0 +1,110 @@
+:root {
+  --bg-main: #0a1a1a;
+  --bg-card: #142828;
+  --border: #234040;
+  --text-primary: #d6ede9;
+  --text-heading: #ffffff;
+  --text-muted: #7fa89f;
+  --accent: #2dd4bf;
+  --accent-hover: #5eead4;
+  --error: #f87171;
+}
+
+.weather-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+
+.weather-app h1 {
+  color: var(--text-heading);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.search-row {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  width: 220px;
+}
+
+.search-input:focus {
+  border-color: var(--accent);
+}
+
+.search-btn {
+  background-color: var(--accent);
+  color: var(--bg-main);
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+.status-text {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.error-text {
+  color: var(--error);
+  font-size: 0.95rem;
+}
+
+.weather-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  min-width: 260px;
+}
+
+.weather-card .city-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin-bottom: 0.5rem;
+}
+
+.weather-icon {
+  width: 90px;
+  height: 90px;
+  margin: -0.5rem 0;
+}
+
+.weather-card .temp {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0.5rem 0;
+}
+
+.weather-card .condition {
+  color: var(--text-muted);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
