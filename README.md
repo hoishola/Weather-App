@@ -1,6 +1,6 @@
 # 🌤️ Weather App
 
-A responsive weather app built with React that lets users search any city and instantly see current conditions, temperature, and a weather icon — built while learning React fundamentals and API integration.
+A responsive weather app built with React that lets users search any city and instantly see current conditions, temperature, and a weather icon. Built while learning React fundamentals and API integration.
 
 ---
 
