@@ -6,7 +6,7 @@ A responsive weather app built with React that lets users search any city and in
 
 ## 🚀 Live Demo
 
-Coming soon.
+https://weather-app-murex-theta-87.vercel.app
 
 ---
 
